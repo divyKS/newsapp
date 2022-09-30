@@ -1,0 +1,31 @@
+@import url("../../App.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(0, 34, 113);
+    user-select: none;
+}
+
+.navbar img{
+    border-radius: 5px;
+}
+
+.navbar-list{
+    color: white;
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-listItem{
+    margin: auto 10px;
+}

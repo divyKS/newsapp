@@ -1,0 +1,81 @@
+@import url("../../App.css");
+
+div.loading{
+    display: flex;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(0, 221, 255);
+    border-radius: 50%;
+    margin: 12px;
+}
+
+.dot:nth-of-type(1){
+    animation-name: loading;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 00s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-play-state: running;
+    transition: 1s ease all;
+}
+
+.dot:nth-of-type(2){
+    animation-name: loading;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 00ms;
+    animation-fill-mode:forwards;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-play-state: running;
+    transition: 1s ease all;
+}
+
+.dot:nth-of-type(3){
+    animation-name: loading;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 00ms;
+    animation-fill-mode:forwards;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-play-state: running;
+    transition: 1s ease all;
+}
+
+.dot:nth-of-type(4){
+    animation-name: loading;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 00ms;
+    animation-fill-mode:forwards;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-play-state: running;
+    transition: 1s ease all;
+}
+
+@keyframes loading {
+    0%{
+        opacity: 0;
+        transform: translateX(0);
+    }
+
+    50%{
+        margin-left: 32px;
+        margin-right: 32px;
+        opacity: 1;
+        transform: translateX(40vw);
+    }
+
+
+    100%{
+        opacity: 0;
+        transform: translateX(80vw);
+    }
+}
